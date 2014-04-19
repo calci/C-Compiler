@@ -2,7 +2,9 @@ C-Compiler-
 ===========
 
 A Small C Compiler which can handle simple sorting programs.
-This is just a basic compiler for preliminary anaysis of all phases of Compiler Design.The .l file generates tokens from input C program and passes to .y file which deals with the Syntactic and Semntic phases.An Intermediate Code is generated.This Intermediated Code is then stored in Quadruple Table.All Statements from Quadruple table are Converted into Assembly Instructions in GCC AT&T Syntax.This generates .s file which can be successfully executed to give desired output of input program.
+This is just a basic compiler for preliminary anaysis of all phases of Compiler Design.
+The .l file generates tokens from input C program and passes to .y file which deals with the Syntactic and Semantic phases.An Intermediate Code is generated.This Intermediated Code is then stored in Quadruple Table.
+All Statements from Quadruple table are Converted into Assembly Instructions in GCC AT&T Syntax.This generates .s file which can be successfully executed to give desired output of input program.
 
 Dependencies:Flex(Lecaical Analyser),Bison(Parser Generator Tool)
 
@@ -32,10 +34,14 @@ The Output of input C program is displayed.
 
 
 The constructs supported by the compiler are
-1.Simple Variable declaration and initialization
-2.Any Dimension Array declaration and initializatio.
+
+1.Simple Variable declaration and initialization.
+
+2.Any Dimension Array declaration and initialization.
 (Error on Redeclaration,Undeclaration,Dimension Mismatch,etc.)
+
 3.If Else Constructs
+
 4.While Loop Constucts(Simple Sorting Programs)
 
 
